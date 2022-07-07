@@ -12,6 +12,7 @@ layout: default
           <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
             <span>Posted: {{ post.date | date: '%B %d, %Y' }}</span>
+            <span><img src="{{ post.gravatar }}"> by {{ post.author }}</span>
           </li>
         {% endfor %}
       </ul>

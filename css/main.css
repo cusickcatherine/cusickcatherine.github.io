@@ -364,6 +364,12 @@ h4 {
   list-style: none;
   padding: 0;
 }
+.blog-title-list img {
+  border-radius: 99px;
+  display: inline-block;
+  height: 2em;
+  vertical-align: middle;
+}
 .blog-title-list li ~ li {
   margin-top: 1.5em;
 }
