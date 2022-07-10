@@ -15,6 +15,10 @@ body {
   padding-top: 10vh;
   width: 100%;
 }
+h1,h2,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
+}
 h1 {
   font-size: 7vw;
   margin-top: 0;
@@ -24,10 +28,6 @@ h2 {
 }
 h3 {
   font-family: 'Open Sans', helvetica, arial, sans;
-}
-h1,h2,h4,h5,h6 {
-  font-family: 'Raleway', helvetica, sans;
-  font-weight: 100;
 }
 a {
   color: #6397b5;
@@ -300,7 +300,7 @@ h4 {
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  top: 60%;
+  top: 50%;
   transform: translate(0, -50%);
 }
 .hero-content h1 {
