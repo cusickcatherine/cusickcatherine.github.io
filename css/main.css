@@ -588,7 +588,7 @@ h4 {
   .show-mobile-menu {
     display: block;
     float: right;
-    margin-top: 1.5vh
+    /* margin-top: 1.5vh */
     padding: 1.5em;
     position: relative;
   }
