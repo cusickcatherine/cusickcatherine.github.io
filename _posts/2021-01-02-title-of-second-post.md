@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This is the title of the post
+title: Dummy Post FTW
 postHero: /images/small/slide1.jpg
 author: Catherine
 authorTwitter: https://twitter.com/cusickcatherine

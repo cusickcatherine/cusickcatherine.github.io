@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This is the title of the post
+title: Definitely Not Plagiarism
 postHero: /images/shark.jpg
 author: Michael
 authorTwitter: https://twitter.com/mhartl
