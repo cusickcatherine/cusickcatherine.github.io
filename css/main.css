@@ -6,7 +6,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: helvetica, arial, sans;
+  font-family: 'Open Sans', helvetica, arial, sans;
   min-height: 100vh;
 }
 .content-container {
@@ -21,6 +21,13 @@ h1 {
 }
 h2 {
   font-size: 2em;
+}
+h3 {
+  font-family: 'Open Sans', helvetica, arial, sans;
+}
+h1,h2,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
 }
 a {
   color: #6397b5;
@@ -323,15 +330,16 @@ h4 {
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans;
-  font-size: 1em;
+  font-size: 1.7em;
   font-weight: bold;
-  height: 2.5em;
+  height: 1.5em;
   line-height: 1;
-  padding-top: 0.85em;
+  padding-top: 0.25em;
   text-align: center;
   text-decoration: none;
+  text-indent: 0.4px;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
 }
 .social-list > li {
   display: inline-block;
@@ -410,6 +418,7 @@ h4 {
 .bio-box .social-link {
   display: block;
   margin: 2em auto 1em;
+  text-indent: 1px;
 }
 .bio-copy {
   font-size: 0.75em;
@@ -496,6 +505,9 @@ h4 {
 .post-header img,
 .post-header .social-link {
   margin-right: 0.5em;
+}
+.post-header .social-link {
+  text-indent: 1px;
 }
 .post-header img {
   border-radius: 99px;
@@ -670,6 +682,9 @@ h4 {
   }
   .post-aside {
     display: none;
+  }
+  .post-byline .social-link {
+    text-indent: 1px;
   }
 
   /* GALLERY STYLES */
